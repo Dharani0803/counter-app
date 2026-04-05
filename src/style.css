@@ -1,0 +1,193 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+     background: linear-gradient(135deg, pink 0%,#764ba2 60%, rgb(72, 72, 185) 100%);
+}
+#nav{
+    padding: 15px 30px;
+    margin: 50px 70px;
+    border-radius: 40px;
+    box-shadow: 0 10px 10px rgba(0,0,0,0.2);
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.nav2{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    align-items: center;
+}
+nav button{
+    background: none;
+    border: none;
+    font-size: larger;
+    cursor: pointer;
+}
+nav h1{
+    text-transform: uppercase;
+}
+
+.light #nav {
+    background-color: white;
+    color: black;
+}
+
+.dark #nav {
+    background-color: #1e1e1e;
+    color: white;
+}
+
+.light .box {
+    background-color: white;
+    color: black;
+}
+
+.dark .box {
+    background-color: #1e1e1e;
+    color: white;
+}
+
+.light footer {
+    background-color: whitesmoke;
+    color: black;
+}
+
+.dark footer {
+    background-color: #1e1e1e;
+    color: white;
+}
+
+.dark i {
+    color: white;
+}
+
+.step input{
+    margin-left: 10px;
+    width: 30px;
+    padding: 5px;
+    text-align: center;
+}
+.step {
+    margin-bottom: 40px;
+}
+.counter{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: wrap;
+}
+label{
+    font-size: 20px;
+}
+.box button:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+.box{
+    width: 60%;
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+    border-radius: 40px;
+    box-shadow: 0 10px 10px rgba(0,0,0,0.2);
+}
+.b1{
+    display: flex;
+    gap: 40px;
+    margin-top: 20px;
+}
+ .box h1{
+    background: linear-gradient(135deg, pink 0%,#764ba2 60%, rgb(72, 72, 185) 100%);
+    width: 170px;
+    height: 165px;
+    border-radius:50%;
+    font-size: 50px;
+    color: whitesmoke;
+    margin-bottom: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.inc{
+    background: linear-gradient(135deg, rgb(114, 227, 114) 0%,rgb(61, 187, 61) 60%, rgb(2, 91, 2) 100%);
+}
+.inc:hover{
+    background: linear-gradient(135deg, rgb(2, 91, 2) 0%,rgb(61, 187, 61) 60%, rgb(114, 227, 114) 100%);
+    transform: scale(1.05);
+}
+.box button{
+    border: none;
+    padding: 15px;
+    border-radius: 15px;
+    font-size: medium;
+    border: solid 1px rgb(120, 120, 120);
+    color: whitesmoke;
+    cursor: pointer;
+}
+.warning {
+  color: red;
+}
+
+.success {
+  color: green;
+}
+.dec{
+    background: linear-gradient(135deg, rgb(227, 125, 125) 0%,rgb(206, 60, 60) 60%, rgb(115, 2, 2) 100%);
+}
+.dec:hover{
+    background: linear-gradient(135deg, rgb(115, 2, 2) 0%,rgb(206, 60, 60) 60%, rgb(227, 125, 125) 100%);
+    transform: scale(1.05);
+}
+.res{
+    background: linear-gradient(135deg, rgb(186, 180, 180) 0%,rgb(107, 106, 106) 60%, rgb(56, 56, 56) 100%);
+}
+.res:hover{
+    background: linear-gradient(135deg, rgb(56, 56, 56) 0%,rgb(107, 106, 106) 60%, rgb(186, 180, 180) 100%);
+    transform: scale(1.05);
+}
+footer{
+    padding: 20px 40px;
+    margin-top: 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.p{
+    font-size: x-small;
+    color: rgb(82, 81, 81);
+    margin-top: 10px;
+}
+footer p{
+   font-size: 12px; 
+}
+.icon i{
+    font-size: 20px;
+}
+.icon{
+    display: flex;
+    gap: 30px;
+}
+@media (max-width: 700px) {
+nav, .counter, footer{
+    font-size: 12px;}
+    .box button{
+        font-size: 12px;
+    }
+    label{
+        font-size: 15px;
+    }
+}
