@@ -1,5 +1,3 @@
-import { useState } from "react";
-
 function Navbar({ darkMode, setDarkMode }){
 
 const today = new Date().toLocaleDateString("en-GB", {
