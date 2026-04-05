@@ -12,6 +12,7 @@ This app allows users to increase, decrease, and reset the counter with a clean 
 * 📱 Responsive layout
 * ⚡ Fast and lightweight
 * 🌙 Dark mode
+* 📆 Calender
 
 ## 🛠️ Technologies Used
 
