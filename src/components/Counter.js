@@ -31,10 +31,10 @@ function Counter(){
 
 {count === 0 ? (<p className="warning"><i class="fa-solid fa-triangle-exclamation"></i>  Minimum limit reached</p>) : 
   (<p className="success">Counter Attempts: {attempts}</p>)}
-            <div class="b1">
-            <button class="dec" onClick={decrement}  disabled={count-step<0}><i class="fa-solid fa-minus"></i> Decrement</button>
-            <button class="res" onClick={reset} disabled={count-step<0}><i class="fa-solid fa-arrow-rotate-left" ></i> Reset</button>
-            <button class="inc" onClick={increment}><i class="fa-solid fa-plus"></i> Increment</button></div>
+            <div class="button">
+            <div><button class="dec" onClick={decrement}  disabled={count-step<0}><i class="fa-solid fa-minus"></i> Decrement</button></div>
+            <div><button class="res" onClick={reset} disabled={count-step<0}><i class="fa-solid fa-arrow-rotate-left" ></i> Reset</button></div>
+            <div><button class="inc" onClick={increment}><i class="fa-solid fa-plus"></i> Increment</button></div></div>
         </div></section>
     )
 }

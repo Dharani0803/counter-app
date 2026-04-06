@@ -103,11 +103,6 @@ label{
     border-radius: 40px;
     box-shadow: 0 10px 10px rgba(0,0,0,0.2);
 }
-.b1{
-    display: flex;
-    gap: 40px;
-    margin-top: 20px;
-}
  .box h1{
     background: linear-gradient(135deg, pink 0%,#764ba2 60%, rgb(72, 72, 185) 100%);
     width: 170px;
@@ -136,7 +131,13 @@ label{
     border: solid 1px rgb(120, 120, 120);
     color: whitesmoke;
     cursor: pointer;
+    margin-top: 20px;
 }
+.button{
+    display: flex;
+    gap: 30px;
+}
+
 .warning {
   color: red;
 }
@@ -190,4 +191,12 @@ nav, .counter, footer{
     label{
         font-size: 15px;
     }
+    .button{
+        display: flex;
+       gap: 10px;
+    }
+    .box button{
+        padding: 10px;
+    }
+    
 }
